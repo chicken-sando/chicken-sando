@@ -46,9 +46,10 @@ Numeric 0-3
 ## X-factor
 
 Does this sandwich do something out of the ordinary and does it work to the
-favor of the overall sandwich?
+favor of the overall sandwich? Note: sandwiches can do things here that overall
+takes away from the chicken sandwich and receive negative points.
 
-Numeric 0-3
+Numeric -5-5
 
 ## Calculation
 
