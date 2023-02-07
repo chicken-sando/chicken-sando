@@ -1,0 +1,88 @@
+# Site settings
+baseURL = "https://www.chickensando.com"
+languageCode = "en-US"
+title = "Chicken Sando"
+theme = "hugo-split-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Local preview mode
+relativeURLs = true
+uglyURLs = true
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Copyright
+copyright = "&copy;2023 Devon Morris"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Devon Morris"
+  description = "A journey to find the greatest chicken sandwich"
+  shareImage = "images/social.jpg"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/background.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = ""
+
+      [[params.links.list1.link]]
+        text = "Ratings"
+        url = "https://github.com/chicken-sando/chicken-sando/blob/master/rankings.csv"
+        new_tab = false # new tab
+
+      [[params.links.list1.link]]
+        text = "Add a sandwich"
+        url = "https://github.com/chicken-sando/chicken-sando/issues"
+        new_tab = false # Default, open at same tab
+
+    [params.links.list2]
+      heading = ""
+      [[params.links.list2.link]]
+        text = "Rating Criteria"
+        url = "https://github.com/chicken-sando/chicken-sando#chicken-sandwich-rankings"
+        new_tab = false
+
+      [[params.links.list2.link]]
+        text = "Notable Sandwiches"
+        url = "https://github.com/chicken-sando/chicken-sando#notable-sandwiches"
+        new_tab = false
+
+    # [params.links.list3]
+    #   heading = ""
+    #   [[params.links.list3.link]]
+    #     text = "History"
+    #     url = ""
+    #     new_tab = false
+
+    #   [[params.links.list3.link]]
+    #     text = "Notable Sandwiches"
+    #     url = "https://github.com/chicken-sando/chicken-sando#notable-sandwiches"
+    #     new_tab = false
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
